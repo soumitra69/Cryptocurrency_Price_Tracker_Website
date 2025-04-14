@@ -1,0 +1,1130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root body {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.header {
+    background-color: black;
+    border-radius: 50px;
+}
+
+.container {
+    max-width: 1741px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+.nav-logo>a>img {
+    height: 46px;
+    width: 159px;
+    object-fit: contain;
+}
+
+header>div>div {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    min-width: 687px;
+    border-radius: 100px;
+    min-width: 687px;
+    min-height: 80px;
+    gap: 50px;
+}
+
+ul>li>a {
+    font-size: 20px;
+    color: black
+}
+
+.hamberger {
+    display: none;
+}
+
+.hamburger-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+
+#hamburger-checkbox {
+    display: none;
+}
+
+.fa-solid {
+    color: white;
+}
+
+
+
+/* banner-section */
+.banner-section {
+    min-height: calc(100vh - 80px);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    color: white;
+    font-weight: bold;
+
+}
+
+.banner-content>div>h1 {
+    font-size: 136px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.banner-content>p {
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-content>button {
+    width: 353px;
+    height: 72px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.banner-content>button:hover {
+    background-color: rgb(122, 122, 216);
+}
+
+.banner-content>button>a {
+    color: white;
+    font-size: 20px;
+}
+
+.banner-content>button>a:hover {
+    background-color: rgb(122, 122, 216);
+    font-size: 20px;
+}
+
+
+
+.banner-div>p {
+    color: white;
+}
+
+/* News-Card*/
+.news-card-section {
+    padding-bottom: 1px;
+}
+
+.news-container-section {
+    background-color: black;
+    /* min-width: 47vw; */
+    height: 163px;
+    width: 100%;
+    padding-top: 45px;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 97px;
+    margin-top: 67px;
+}
+
+.news-card {
+    background-color: #121212;
+    border-radius: 30px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 250px;
+    box-sizing: border-box;
+    height: 128px;
+    border-radius: 50px;
+}
+
+.logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.ethereum-logo>img {
+    width: 51px;
+    height: 32px;
+}
+
+.section-p {
+    color: white;
+    padding-left: 175px;
+}
+
+
+
+/* Stacking Section Styles */
+.stacking-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 40px;
+    margin-bottom: 59px;
+}
+
+.stacking-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Left side - Information */
+.stacking-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.stacking-info h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.stacking-info p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 30px;
+    max-width: 90%;
+}
+
+.start-btn {
+    background-color: #5546FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-btn:hover {
+    background-color: #4335E0;
+}
+
+/* Right side - */
+.stacking-stats {}
+
+.stat-item {
+    border-radius: 40px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percentage {
+    background-color: #f0f0f0;
+
+}
+
+.stat-value1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-value {
+    background-color: #f0f0f0;
+    height: 100px;
+    width: 160px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.total-locked {
+    background-color: #5546FF;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 40px;
+}
+
+.locked-value {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 74px;
+    align-items: center;
+    gap: 15px;
+}
+
+.dollar-sign {
+    font-size: 3rem;
+    vertical-align: top;
+}
+
+.locked-label {
+    font-size: 0.9rem;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+
+
+.logo-container {
+    background-color: #5546FF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.data-source {
+    background-color: #f0f0f0;
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.3;
+}
+
+
+
+/* Stacks Features Section */
+.stacks-features-section {
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+/* Features Container */
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* Feature Cards */
+.feature-card {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 30px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.proof-icon {
+    background-color: #5546FF;
+}
+
+.nft-icon {
+    background-color: #5546FF;
+}
+
+.defi-icon {
+    background-color: #5546FF;
+}
+
+.feature-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.feature-description {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.learn-more {
+    color: #5546FF;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+/* Section Footer */
+.section-footer {
+    text-align: center;
+}
+
+.all-features-btn {
+    display: inline-block;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+.all-features-btn:hover {
+    color: #5546FF;
+}
+
+/* stacks-section */
+.stacks-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.stacks-container {
+    padding: 1rem 0;
+}
+
+.logo {
+    color: #3b82f6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.stacking-stats-div1 {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 20px;
+}
+
+.stat-item1>img {
+    width: 80px;
+    height: 80px;
+}
+
+.stat-value {
+    background-color: #f0f0f0;
+    height: 100px;
+    width: 160px;
+    border-radius: 50px;
+}
+
+.stat-value>span {
+    align-items: center;
+    text-align: center;
+}
+
+.stacking-stats-div2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 192px;
+}
+
+.stat-value1 {}
+
+
+
+/* stacks-section 4 Section 4 */
+.section4 {
+    background-color: black;
+    border-radius: 60px;
+    margin-top: 60px;
+}
+
+
+.Stacks-for-developer-container {
+    padding: 104px;
+}
+
+.Stacks-for-developer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.Stacks-for-developer {
+    flex: 1;
+    min-width: 300px;
+    max-width: 550px;
+    margin-right: 20px;
+}
+
+.subtitle {
+    color: #6c5ce7;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: white;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.description {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.stack-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stack-image img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
+.projects-section {
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+.projects-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.projects-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #111;
+    border-radius: 60px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+.project-icon {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.project-name {
+    font-size: 14px;
+    white-space: nowrap;
+    color: white;
+}
+
+.project-icon>img {
+    width: 67px;
+    height: 70px;
+}
+
+/* container5 */
+.container5 {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 105px;
+}
+
+.row5 {
+    max-width: 1711px;
+    max-height: 508px;
+    display: flex;
+    justify-content: space-between;
+    gap: 166px;
+    flex-wrap: wrap;
+}
+
+.text-section {
+    max-width: 500px;
+}
+
+.text-section h1 {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.section5-img>img {
+    width: 478px;
+    height: 343px;
+    top: 10px;
+    margin-top: -11px;
+    object-fit: contain;
+}
+
+.section5-btn {
+    background-color: #5546FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* container6 */
+.section6 {
+    background-color: black;
+    padding: 105px;
+}
+
+.container6 {
+    max-width: 1920px;
+    max-height: 972px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.row6 {
+    max-width: 1920px;
+    max-height: 972px;
+    background-color: black
+}
+
+.row6>h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.navigation2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+    justify-content: space-evenly
+}
+
+.nav-button {
+    background-color: transparent;
+    border: 1px solid #333;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 160px;
+    height: 45px;
+}
+
+.nav-button:hover {
+    background-color: #222;
+}
+
+footer {
+    margin-top: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #222;
+    flex-wrap: wrap;
+}
+
+.brand {
+    color: #6366f1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-links {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .banner-content>div>h1 {
+        font-size: 6.5rem;
+        margin-top: 50px;
+    }
+
+    .news-container {
+        /* justify-content: space-between; */
+        display: flex;
+    }
+
+    .news-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .news-card {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .section-p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .stacking-content {
+        flex-direction: column;
+    }
+
+    .stacking-info,
+    .stacking-stats {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .stacking-info h1 {
+        font-size: 3rem;
+    }
+
+    .features-container {
+        gap: 20px;
+    }
+
+    .feature-card {
+        min-width: 280px;
+    }
+
+    /* section5 */
+    .row5 {
+        justify-content: center;
+    }
+
+    .section5-img {
+        position: relative;
+        bottom: 200px;
+    }
+
+    .projects-list {
+        width: 97vw;
+        margin-left: -89px;
+        justify-content: space-between;
+    }
+
+    .project-name {
+        margin-left: -38px;
+
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .hamburger-icon {
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid #eee;
+    }
+
+    #hamburger-checkbox:checked~nav {
+        max-height: 300px;
+    }
+
+    .row {
+        gap: 100px;
+        justify-content: space-between;
+    }
+
+    .nav-logo {
+        position: relative;
+        right: 25px;
+    }
+
+    .banner-section {
+        padding: 40px 0;
+    }
+
+    .banner-content>div>h1 {
+        font-size: 4rem;
+        margin-bottom: 40px;
+    }
+
+    .banner-content>p {
+        font-size: 1rem;
+    }
+
+    .banner-content>button {
+        height: 50px;
+
+    }
+
+    .banner-content>button>a {
+        align-items: center;
+        margin: -17px;
+    }
+
+    .news-card {
+
+        width: 100%;
+    }
+
+    .stacking-section {
+        padding: 40px 0;
+    }
+
+    .stacking-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .stacking-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .section-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .features-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* section5 */
+    /* .container5 {
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+    } */
+    .section-p {
+        position: relative;
+        left: -368px;
+    }
+
+    .news-card-section {
+        padding: 25px;
+    }
+
+    .projects-list {
+        margin: 0px auto;
+        /* justify-content: center; */
+        width: 72vw;
+    }
+
+    .navigation {}
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .row {
+        justify-content: space-between;
+    }
+
+    .container {
+        gap: 10px;
+    }
+
+    .banner-section {
+        padding: 30px 0;
+    }
+
+    .banner-content>div>h1 {
+        font-size: 4rem;
+        margin-bottom: 0px;
+    }
+
+    .banner-content p {
+        font-size: 0.9rem;
+    }
+
+    .banner-content button {
+        padding: 10px 39px;
+        font-size: 0.9rem;
+        width: 100%;
+        max-width: 292px;
+    }
+
+    .stacking-info h1 {
+        font-size: 2rem;
+    }
+
+    .stacking-info p {
+        font-size: 0.9rem;
+    }
+
+    .locked-value {
+        font-size: 1.5rem;
+    }
+
+    .stat-item {
+        padding: 10px;
+    }
+
+    .stacks-features-section {
+        padding: 40px 0;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .feature-card {
+        padding: 20px;
+    }
+
+    .feature-title {
+        font-size: 1.5rem;
+    }
+
+    .stacking-stats-div2 {
+        margin-left: 15px;
+    }
+
+    .news-card-section>p {
+        margin-left: -280px;
+        /* margin-top: 12px; */
+    }
+
+    /* section 4 */
+    .projects-title {}
+
+    .Stacks-for-developer-container {
+        padding: 10px;
+    }
+
+    /* section5 */
+    .section5 {
+        display: none;
+    }
+
+    /* section6 */
+    .section6 {
+        height: 190vh;
+        margin-top: 18px;
+    }
+
+
+
+    footer {
+        justify-content: space-between;
+    }
+
+    .brand {
+        justify-content: start;
+    }
+
+    .row6>h2 {
+        justify-content: center;
+    }
+
+
+
+}
